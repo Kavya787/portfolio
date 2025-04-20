@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 const botImg = "https://cdn-icons-png.flaticon.com/512/4712/4712102.png";
 
-export default function HelperBot() {
+export default function HelperBot({ visitCount }) {
     const [showQuestion, setShowQuestion] = useState(true);
     const [showHelp, setShowHelp] = useState(false);
     const [greeting, setGreeting] = useState("");
@@ -11,6 +12,7 @@ export default function HelperBot() {
     const [botVisible, setBotVisible] = useState(true);
 
     useEffect(() => {
+        // Greeting and emojis
         const hour = new Date().getHours();
         if (hour < 12) setGreeting("Good morning!");
         else if (hour < 18) setGreeting("Good afternoon!");
@@ -37,12 +39,12 @@ export default function HelperBot() {
     const handleNo = () => {
         setShowQuestion(false);
         setShowHelp(false);
-        setBotVisible(false); // Hide bot and show reopen button
+        setBotVisible(false);
     };
 
     const closeHelp = () => {
         setShowHelp(false);
-        setBotVisible(false); // Hide bot and show reopen button
+        setBotVisible(false);
     };
 
     const reopenBot = () => {
@@ -54,19 +56,8 @@ export default function HelperBot() {
     return (
         <>
             {botVisible ? (
-                <div style={{
-                    position: 'absolute',
-                    top: '20px',
-                    left: '20px',
-                    zIndex: 1000,
-                    fontFamily: 'sans-serif',
-                    color: '#000',
-                }}>
-                    <div style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '10px'
-                    }}>
+                <div style={{ position: 'absolute', top: '20px', left: '20px', zIndex: 1000, fontFamily: 'sans-serif', color: '#000' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <img
                             src={botImg}
                             alt="Helper Bot"
@@ -88,7 +79,12 @@ export default function HelperBot() {
                                 boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
                                 maxWidth: '280px',
                             }}>
-                                <p>{expression} {greeting}<br />Do you need help?</p>
+                                <p>{expression} {greeting}<br />
+                                    {visitCount !== null && (
+                                        <span>Welcome! This portfolio is visted <strong>{visitCount}</strong> times{visitCount > 1 ? "s" : ""}.</span>
+                                    )}<br />
+                                    Do you need help?
+                                </p>
                                 <button onClick={handleYes} style={{ marginRight: '10px' }}>Yes</button>
                                 <button onClick={handleNo}>No</button>
                             </div>
