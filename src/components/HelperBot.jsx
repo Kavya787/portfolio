@@ -73,15 +73,15 @@ export default function HelperBot({ visitCount }) {
                         />
                         {showQuestion && (
                             <div style={{
-                                background: '#fff',
+                                background: '#FFD8B1',
                                 padding: '1rem',
                                 borderRadius: '12px',
                                 boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
-                                maxWidth: '280px',
+                                maxWidth: '200px',
                             }}>
                                 <p>{expression} {greeting}<br />
                                     {visitCount !== null && (
-                                        <span>Welcome! This portfolio is visted <strong>{visitCount}</strong> times{visitCount > 1 ? "s" : ""}.</span>
+                                    <span>Welcome! This portfolio is visted <strong>{visitCount}</strong> times{visitCount > 1 ? "s" : ""}.</span>
                                     )}<br />
                                     Do you need help?
                                 </p>
@@ -94,7 +94,7 @@ export default function HelperBot({ visitCount }) {
                     {showHelp && (
                         <div style={{
                             marginTop: '10px',
-                            background: '#f0f0f0',
+                            background: '#FFD8B1',
                             padding: '1rem',
                             borderRadius: '12px',
                             maxWidth: '300px',
