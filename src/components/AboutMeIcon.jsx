@@ -29,12 +29,7 @@ const AboutMeIcon = ({ nodes, floor, wallBack, wallLeft, cameraMode }) => {
         }
     }, [hovered]);
 
-    // Handle click event
-    const handleClick = () => {
-        if (cameraMode === "default") {
-            window.open("https://www.instagram.com/_.chintuuu._", "_blank");
-        }
-    };
+
 
     return (
         <group
