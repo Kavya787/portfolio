@@ -62,7 +62,7 @@ const AboutMeIcon = ({ nodes, floor, wallBack, wallLeft, cameraMode }) => {
             {nodes && (
                 <>
                     {/* Check if the nodes exist and render the meshes */}
-                    <group name="Cylinder043_1" position={[0, 3.02, 6]} rotation={[Math.PI / 2, 0, 0]} scale={0.69}>
+                    {/* <group name="Cylinder043_1" position={[0, 3.02, 6]} rotation={[Math.PI / 2, 0, 0]} scale={0.69}>
                         <mesh
                             name="Object_43"
                             geometry={nodes.Object_43.geometry}
@@ -88,7 +88,7 @@ const AboutMeIcon = ({ nodes, floor, wallBack, wallLeft, cameraMode }) => {
                             castShadow
                             receiveShadow
                         />
-                    </group>
+                    </group> */}
                 </>
             )}
         </group>

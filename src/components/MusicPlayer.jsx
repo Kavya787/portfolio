@@ -88,20 +88,20 @@ const MusicPlayer = ({
                         }, 400);
                     }
                 }}
-                onPointerEnter={() => setHovered(true)}
-                onPointerLeave={() => setHovered(false)}
-                onClick={() => {
-                    if (cameraMode === "default") {
-                        setCameraMode("spotify");
-                        playSwish();
-                        setHovered(false);
-                    }
-                }}
+                // onPointerEnter={() => setHovered(true)}
+                // onPointerLeave={() => setHovered(false)}
+                // onClick={() => {
+                //     if (cameraMode === "default") {
+                //         setCameraMode("spotify");
+                //         playSwish();
+                //         setHovered(false);
+                //     }
+                // }}
                 name="Record Player"
                 position={[62.86, 68.71, 18.71]}
                 rotation={[Math.PI / 2, 0, 0]}
                 scale={0.17}>
-                <Html
+                {/* <Html
                     ref={html}
                     position={[300, 200, -100]}
                     distanceFactor={0.8}
@@ -109,7 +109,7 @@ const MusicPlayer = ({
                     center
                     pointerEvents="none">
                     <div className="label">Spotify 🎵</div>
-                </Html>
+                </Html> */}
                 <mesh
                     name="Cube"
                     geometry={nodes.Cube.geometry}
