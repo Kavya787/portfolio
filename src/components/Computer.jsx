@@ -30,7 +30,7 @@ const Computer = ({
     {
       name: "Angry Birds using LIBGDX ",
       description:
-        "An immersive showcase of UI/UX design projects with dynamic 3D elements and smooth transitions.",
+        "This is a custom-built Angry Birds game created using the libGDX framework. It features classic physics-based gameplay with a catapult mechanism, destructible structures, and pig targets. Players can use special bird abilities—like the yellow bird’s speed boost and the black bird’s explosive power—to strategically destroy pigs and structures. The game includes realistic physics, TNT boxes, and save/load functionality. It also has JUnit tests to ensure core features like pig positioning, bird powers, and level setup work correctly. Use arrow keys to aim, 1 or 2 to trigger bird powers, and 0 to pause the game.",
       imageUrl:
         "/images/project1.png",
       githubUrl: "https://github.com/Kavya787/libgdx",

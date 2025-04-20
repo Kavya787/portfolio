@@ -53,7 +53,7 @@ const GithubIcon = ({ nodes, floor, wallBack, wallLeft, cameraMode }) => {
                 onClick={() => {
                     if (cameraMode === "default") {
                         window.open(
-                            "https://github.com/gigabite-pro",
+                            "https://github.com/Kavya787",
                             "_blank"
                         );
                     }

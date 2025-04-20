@@ -17,9 +17,7 @@ const Home = () => {
         document.body.style.fontWeight = "bold";
         document.body.innerHTML =
             "<p>Sorry! This website is currently not available on mobile devices. <br> Please visit on a desktop or laptop. Redirecting to old website...</p>";
-        // setTimeout(() => {
-        //     window.location.href = "https://vaibhav-sharma.me";
-        // }, 7000);
+      
     }
 
     useEffect(() => {

@@ -53,7 +53,7 @@ const LinkedInIcon = ({ nodes, floor, wallBack, wallLeft, cameraMode }) => {
                 onClick={() => {
                     if (cameraMode === "default") {
                         window.open(
-                            "https://www.linkedin.com/in/v-sharma03/",
+                            "https://www.linkedin.com/in/kavya1610/",
                             "_blank"
                         );
                     }

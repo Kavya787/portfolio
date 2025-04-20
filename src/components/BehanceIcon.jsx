@@ -53,7 +53,7 @@ const BehanceIcon = ({ nodes, floor, wallBack, wallLeft, cameraMode }) => {
                 onClick={() => {
                     if (cameraMode === "default") {
                         window.open(
-                            "https://www.behance.net/chin2sharma",
+                            "https://www.behance.net/kavyaiiitd",
                             "_blank"
                         );
                     }
