@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "Technovity",
+      "description": "Official website for AISG-46's ATL fest Technovity 2020."
+    },
+    {
+      "name": "Portraits",
+      "description": "Generates random portraits on different name inputs."
+    },
+    {
+      "name": "Piamo",
+      "description": "A simple web-based piano that can be played using the keyboard or mouse."
+    },
+    {
+      "name": "Impro",
+      "description": "Impro lets artists create and manage profile pages with project images, bios, and profile pictures."
+    },
+    {
+      "name": "Nibble",
+      "description": "A sleek link shortener to convert long URLs into short, shareable links."
+    },
+    {
+      "name": "Movie Logger",
+      "description": "Add and manage a list of movies. Built as a teaching project with junior students."
+    },
+    {
+      "name": "Muvi API",
+      "description": "Chrome extension to download movies directly from Google search results."
+    }
+  ]
+}
