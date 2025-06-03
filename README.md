@@ -18,7 +18,7 @@ This isn't just a website — it's a **digital experience** where creativity mee
 ## 📸 Preview
 
 ### 🧠 Cognition & Action
-![Cognition & Action](./assets/1.png)
+![Kavya Laptop](./assets/1.png)
 
 ### 🌀 Creative Cube: A Multidimensional Showcase
 ![Creative Cube](./assets/2.png)
