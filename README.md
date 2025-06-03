@@ -17,14 +17,14 @@ This isn't just a website — it's a **digital experience** where creativity mee
 
 ## 📸 Preview
 
-### 🧠 Cognition & Action
-![Kavya Laptop](./assets/1.png)
+### 🧠 Welcome Screen
+![Wwlcome Screen](./assets/1.png)
 
 ### 🌀 Creative Cube: A Multidimensional Showcase
 ![Creative Cube](./assets/2.png)
 
-### 💡 Welcome Screen
-![Kavya Laptop](./assets/3.png)
+### 💡 Cognition & Action
+![Cognition and Features](./assets/3.png)
 
 > _Explore the space, interact with elements, and discover hidden easter eggs that represent who I am._
 
